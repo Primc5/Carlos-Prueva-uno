@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		6F636D932177526900DD0852 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F636D922177526900DD0852 /* AppDelegate.swift */; };
-		6F636D952177526900DD0852 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F636D942177526900DD0852 /* ViewController.swift */; };
-		6F636D982177526900DD0852 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F636D962177526900DD0852 /* Main.storyboard */; };
 		6F636D9A2177527000DD0852 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F636D992177527000DD0852 /* Assets.xcassets */; };
-		6F636D9D2177527000DD0852 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F636D9B2177527000DD0852 /* LaunchScreen.storyboard */; };
 		6F636DA82177527000DD0852 /* Prueva1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F636DA72177527000DD0852 /* Prueva1Tests.swift */; };
 		6F636DB32177527000DD0852 /* Prueva1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F636DB22177527000DD0852 /* Prueva1UITests.swift */; };
+		6F636DC4217752DA00DD0852 /* Tabla.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F636DC2217752DA00DD0852 /* Tabla.swift */; };
+		6F636DC5217752DA00DD0852 /* Tabla.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F636DC3217752DA00DD0852 /* Tabla.xib */; };
+		6F636DCB2177538300DD0852 /* CelulaSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F636DC92177538300DD0852 /* CelulaSwitch.swift */; };
+		6F636DCC2177538300DD0852 /* CelulaSwitch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F636DCA2177538300DD0852 /* CelulaSwitch.xib */; };
+		6F636DD0217753BD00DD0852 /* CelulaNormal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F636DCE217753BD00DD0852 /* CelulaNormal.swift */; };
+		6F636DD1217753BD00DD0852 /* CelulaNormal.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F636DCF217753BD00DD0852 /* CelulaNormal.xib */; };
+		6F636DD42177567A00DD0852 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F636DD32177567900DD0852 /* LaunchScreen.storyboard */; };
+		6F636DD8217760A900DD0852 /* General.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F636DD6217760A900DD0852 /* General.swift */; };
+		6F636DD9217760A900DD0852 /* General.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F636DD7217760A900DD0852 /* General.xib */; };
+		6F636DDE2177617F00DD0852 /* CelulaN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F636DDD2177617F00DD0852 /* CelulaN.swift */; };
+		6F636DE02177633100DD0852 /* CelulaS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F636DDF2177633100DD0852 /* CelulaS.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +44,7 @@
 /* Begin PBXFileReference section */
 		6F636D8F2177526900DD0852 /* Prueva1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prueva1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F636D922177526900DD0852 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6F636D942177526900DD0852 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6F636D972177526900DD0852 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6F636D992177527000DD0852 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6F636D9C2177527000DD0852 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F636D9E2177527000DD0852 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F636DA32177527000DD0852 /* Prueva1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Prueva1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F636DA72177527000DD0852 /* Prueva1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prueva1Tests.swift; sourceTree = "<group>"; };
@@ -47,6 +52,17 @@
 		6F636DAE2177527000DD0852 /* Prueva1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Prueva1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F636DB22177527000DD0852 /* Prueva1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prueva1UITests.swift; sourceTree = "<group>"; };
 		6F636DB42177527000DD0852 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F636DC2217752DA00DD0852 /* Tabla.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabla.swift; sourceTree = "<group>"; };
+		6F636DC3217752DA00DD0852 /* Tabla.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Tabla.xib; sourceTree = "<group>"; };
+		6F636DC92177538300DD0852 /* CelulaSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelulaSwitch.swift; sourceTree = "<group>"; };
+		6F636DCA2177538300DD0852 /* CelulaSwitch.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CelulaSwitch.xib; sourceTree = "<group>"; };
+		6F636DCE217753BD00DD0852 /* CelulaNormal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelulaNormal.swift; sourceTree = "<group>"; };
+		6F636DCF217753BD00DD0852 /* CelulaNormal.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CelulaNormal.xib; sourceTree = "<group>"; };
+		6F636DD32177567900DD0852 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ../../../.Trash/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F636DD6217760A900DD0852 /* General.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = General.swift; sourceTree = "<group>"; };
+		6F636DD7217760A900DD0852 /* General.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = General.xib; sourceTree = "<group>"; };
+		6F636DDD2177617F00DD0852 /* CelulaN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelulaN.swift; sourceTree = "<group>"; };
+		6F636DDF2177633100DD0852 /* CelulaS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelulaS.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +113,12 @@
 		6F636D912177526900DD0852 /* Prueva1 */ = {
 			isa = PBXGroup;
 			children = (
+				6F636DDA2177615500DD0852 /* datos */,
+				6F636DC6217752E600DD0852 /* Celulas */,
+				6F636DC02177528E00DD0852 /* tabalp */,
 				6F636D922177526900DD0852 /* AppDelegate.swift */,
-				6F636D942177526900DD0852 /* ViewController.swift */,
-				6F636D962177526900DD0852 /* Main.storyboard */,
 				6F636D992177527000DD0852 /* Assets.xcassets */,
-				6F636D9B2177527000DD0852 /* LaunchScreen.storyboard */,
+				6F636DD32177567900DD0852 /* LaunchScreen.storyboard */,
 				6F636D9E2177527000DD0852 /* Info.plist */,
 			);
 			path = Prueva1;
@@ -123,6 +140,69 @@
 				6F636DB42177527000DD0852 /* Info.plist */,
 			);
 			path = Prueva1UITests;
+			sourceTree = "<group>";
+		};
+		6F636DC02177528E00DD0852 /* tabalp */ = {
+			isa = PBXGroup;
+			children = (
+				6F636DD52177608C00DD0852 /* New Group */,
+				6F636DC12177529A00DD0852 /* ControladorTabla */,
+			);
+			path = tabalp;
+			sourceTree = "<group>";
+		};
+		6F636DC12177529A00DD0852 /* ControladorTabla */ = {
+			isa = PBXGroup;
+			children = (
+				6F636DC2217752DA00DD0852 /* Tabla.swift */,
+				6F636DC3217752DA00DD0852 /* Tabla.xib */,
+			);
+			path = ControladorTabla;
+			sourceTree = "<group>";
+		};
+		6F636DC6217752E600DD0852 /* Celulas */ = {
+			isa = PBXGroup;
+			children = (
+				6F636DC82177532900DD0852 /* CelulaSwitch */,
+				6F636DC7217752EF00DD0852 /* CelulaNormal */,
+			);
+			path = Celulas;
+			sourceTree = "<group>";
+		};
+		6F636DC7217752EF00DD0852 /* CelulaNormal */ = {
+			isa = PBXGroup;
+			children = (
+				6F636DCE217753BD00DD0852 /* CelulaNormal.swift */,
+				6F636DCF217753BD00DD0852 /* CelulaNormal.xib */,
+			);
+			path = CelulaNormal;
+			sourceTree = "<group>";
+		};
+		6F636DC82177532900DD0852 /* CelulaSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				6F636DC92177538300DD0852 /* CelulaSwitch.swift */,
+				6F636DCA2177538300DD0852 /* CelulaSwitch.xib */,
+			);
+			path = CelulaSwitch;
+			sourceTree = "<group>";
+		};
+		6F636DD52177608C00DD0852 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				6F636DD6217760A900DD0852 /* General.swift */,
+				6F636DD7217760A900DD0852 /* General.xib */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		6F636DDA2177615500DD0852 /* datos */ = {
+			isa = PBXGroup;
+			children = (
+				6F636DDD2177617F00DD0852 /* CelulaN.swift */,
+				6F636DDF2177633100DD0852 /* CelulaS.swift */,
+			);
+			path = datos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +309,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F636D9D2177527000DD0852 /* LaunchScreen.storyboard in Resources */,
+				6F636DD1217753BD00DD0852 /* CelulaNormal.xib in Resources */,
+				6F636DCC2177538300DD0852 /* CelulaSwitch.xib in Resources */,
+				6F636DD9217760A900DD0852 /* General.xib in Resources */,
+				6F636DC5217752DA00DD0852 /* Tabla.xib in Resources */,
+				6F636DD42177567A00DD0852 /* LaunchScreen.storyboard in Resources */,
 				6F636D9A2177527000DD0852 /* Assets.xcassets in Resources */,
-				6F636D982177526900DD0852 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +339,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F636D952177526900DD0852 /* ViewController.swift in Sources */,
+				6F636DC4217752DA00DD0852 /* Tabla.swift in Sources */,
+				6F636DCB2177538300DD0852 /* CelulaSwitch.swift in Sources */,
+				6F636DDE2177617F00DD0852 /* CelulaN.swift in Sources */,
+				6F636DD0217753BD00DD0852 /* CelulaNormal.swift in Sources */,
 				6F636D932177526900DD0852 /* AppDelegate.swift in Sources */,
+				6F636DE02177633100DD0852 /* CelulaS.swift in Sources */,
+				6F636DD8217760A900DD0852 /* General.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,25 +379,6 @@
 			targetProxy = 6F636DAF2177527000DD0852 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		6F636D962177526900DD0852 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6F636D972177526900DD0852 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		6F636D9B2177527000DD0852 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6F636D9C2177527000DD0852 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		6F636DB52177527000DD0852 /* Debug */ = {
@@ -439,7 +508,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Bugisos.Prueva1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -456,7 +525,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Bugisos.Prueva1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
