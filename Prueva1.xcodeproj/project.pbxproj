@@ -17,11 +17,11 @@
 		6F636DCC2177538300DD0852 /* CelulaSwitch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F636DCA2177538300DD0852 /* CelulaSwitch.xib */; };
 		6F636DD0217753BD00DD0852 /* CelulaNormal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F636DCE217753BD00DD0852 /* CelulaNormal.swift */; };
 		6F636DD1217753BD00DD0852 /* CelulaNormal.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F636DCF217753BD00DD0852 /* CelulaNormal.xib */; };
-		6F636DD42177567A00DD0852 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F636DD32177567900DD0852 /* LaunchScreen.storyboard */; };
 		6F636DD8217760A900DD0852 /* General.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F636DD6217760A900DD0852 /* General.swift */; };
 		6F636DD9217760A900DD0852 /* General.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F636DD7217760A900DD0852 /* General.xib */; };
 		6F636DDE2177617F00DD0852 /* CelulaN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F636DDD2177617F00DD0852 /* CelulaN.swift */; };
 		6F636DE02177633100DD0852 /* CelulaS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F636DDF2177633100DD0852 /* CelulaS.swift */; };
+		6FCB8A41219301F70014E24A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FCB8A40219301F70014E24A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,11 +58,11 @@
 		6F636DCA2177538300DD0852 /* CelulaSwitch.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CelulaSwitch.xib; sourceTree = "<group>"; };
 		6F636DCE217753BD00DD0852 /* CelulaNormal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelulaNormal.swift; sourceTree = "<group>"; };
 		6F636DCF217753BD00DD0852 /* CelulaNormal.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CelulaNormal.xib; sourceTree = "<group>"; };
-		6F636DD32177567900DD0852 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ../../../.Trash/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F636DD6217760A900DD0852 /* General.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = General.swift; sourceTree = "<group>"; };
 		6F636DD7217760A900DD0852 /* General.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = General.xib; sourceTree = "<group>"; };
 		6F636DDD2177617F00DD0852 /* CelulaN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelulaN.swift; sourceTree = "<group>"; };
 		6F636DDF2177633100DD0852 /* CelulaS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelulaS.swift; sourceTree = "<group>"; };
+		6FCB8A40219301F70014E24A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,12 +113,12 @@
 		6F636D912177526900DD0852 /* Prueva1 */ = {
 			isa = PBXGroup;
 			children = (
+				6FCB8A40219301F70014E24A /* LaunchScreen.storyboard */,
 				6F636DDA2177615500DD0852 /* datos */,
 				6F636DC6217752E600DD0852 /* Celulas */,
 				6F636DC02177528E00DD0852 /* tabalp */,
 				6F636D922177526900DD0852 /* AppDelegate.swift */,
 				6F636D992177527000DD0852 /* Assets.xcassets */,
-				6F636DD32177567900DD0852 /* LaunchScreen.storyboard */,
 				6F636D9E2177527000DD0852 /* Info.plist */,
 			);
 			path = Prueva1;
@@ -313,7 +313,7 @@
 				6F636DCC2177538300DD0852 /* CelulaSwitch.xib in Resources */,
 				6F636DD9217760A900DD0852 /* General.xib in Resources */,
 				6F636DC5217752DA00DD0852 /* Tabla.xib in Resources */,
-				6F636DD42177567A00DD0852 /* LaunchScreen.storyboard in Resources */,
+				6FCB8A41219301F70014E24A /* LaunchScreen.storyboard in Resources */,
 				6F636D9A2177527000DD0852 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
